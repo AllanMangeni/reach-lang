@@ -293,7 +293,7 @@ jobs:
     - run: |
         echo Go team!
   "browser-tests":
-    executor: fake
+    executor: real
     steps:
     - checkout
     - workattach
